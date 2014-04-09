@@ -1,0 +1,308 @@
+div.changelist-inline {
+  margin: 0;
+  padding: 0;
+}
+
+div.changelist-inline > fieldset {
+  margin: 0;
+  border: 0;
+}
+
+div.changelist-inline {
+    position: relative;
+    width: 100%;
+}
+
+div.changelist-inline .object-tools {
+  position: absolute;
+  top: 48px;
+  right: 0;
+}
+
+div.changelist-inline table {
+    width: 100%;
+}
+
+div.changelist-inline .hiddenfields { display:none; }
+
+div.changelist-inline .filtered table {
+    border-right: 1px solid #ddd;
+}
+
+div.changelist-inline .filtered {
+    min-height: 400px;
+}
+
+div.changelist-inline .filtered {
+    background: white url(../../admin/img/changelist-bg.gif) top right repeat-y !important;
+}
+
+div.changelist-inline .filtered .results, div.changelist-inline .filtered .paginator, .filtered #toolbar, .filtered div.xfull {
+    margin-right: 160px !important;
+    width: auto !important;
+}
+
+div.changelist-inline .filtered table tbody th {
+    padding-right: 1em;
+}
+
+div.changelist-inline-form .results {
+  overflow-x: auto;
+}
+
+div.changelist-inline .toplinks {
+    border-bottom: 1px solid #ccc !important;
+}
+
+div.changelist-inline .paginator {
+    color: #666;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background: white url(../../admin/img/nav-bg.gif) 0 180% repeat-x;
+    overflow: hidden;
+}
+
+div.changelist-inline .filtered .paginator {
+    border-right: 1px solid #ddd;
+}
+
+/* CHANGELIST TABLES */
+
+div.changelist-inline table thead th {
+    padding: 0;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+div.changelist-inline table thead th.action-checkbox-column {
+    width: 1.5em;
+    text-align: center;
+}
+
+div.changelist-inline table tbody td, div.changelist-inline table tbody th {
+    border-left: 1px solid #ddd;
+}
+
+div.changelist-inline table tbody td:first-child, div.changelist-inline table tbody th:first-child {
+    border-left: 0;
+    border-right: 1px solid #ddd;
+}
+
+div.changelist-inline table tbody td.action-checkbox {
+    text-align:center;
+}
+
+div.changelist-inline table tfoot {
+    color: #666;
+}
+
+/* TOOLBAR */
+
+div.changelist-inline #toolbar {
+    padding: 3px;
+    border-bottom: 1px solid #ddd;
+    background: #e1e1e1 url(../../admin/img/nav-bg.gif) top left repeat-x;
+    color: #666;
+}
+
+div.changelist-inline #toolbar form input {
+    font-size: 11px;
+    padding: 1px 2px;
+}
+
+div.changelist-inline #toolbar form #searchbar {
+    padding: 2px;
+}
+
+div.changelist-inline div.changelist-inline-search img {
+    vertical-align: middle;
+}
+
+/* FILTER COLUMN */
+
+div.changelist-inline .changelist-filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    width: 160px;
+    border-left: 1px solid #ddd;
+    background: #efefef;
+    margin: 0;
+}
+
+div.changelist-inline .changelist-filter h2 {
+    font-size: 11px;
+    padding: 2px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+div.changelist-inline .changelist-filter h3 {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+div.changelist-inline .changelist-filter ul {
+    padding-left: 0;
+    margin-left: 10px;
+}
+
+div.changelist-inline .changelist-filter li {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+div.changelist-inline .changelist-filter a {
+    color: #999;
+}
+
+div.changelist-inline .changelist-filter a:hover {
+    color: #036;
+}
+
+div.changelist-inline .changelist-filter li.selected {
+    border-left: 5px solid #ccc;
+    padding-left: 5px;
+    margin-left: -10px;
+}
+
+div.changelist-inline .changelist-filter li.selected a {
+    color: #5b80b2 !important;
+}
+
+/* DATE DRILLDOWN */
+
+div.changelist-inline ul.toplinks {
+    display: block;
+    background: white url(../../admin/img/nav-bg-reverse.gif) 0 -10px repeat-x;
+    border-top: 1px solid white;
+    float: left;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+
+div.changelist-inline ul.toplinks li {
+    padding: 3px 6px;
+    font-weight: bold;
+    list-style-type: none;
+    display: inline-block;
+}
+
+div.changelist-inline ul.toplinks .date-back a {
+    color: #999;
+}
+
+div.changelist-inline ul.toplinks .date-back a:hover {
+    color: #036;
+}
+
+/* PAGINATOR */
+
+div.changelist-inline .paginator {
+    font-size: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    line-height: 22px;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+
+div.changelist-inline .paginator a:link, .paginator a:visited {
+    padding: 2px 6px;
+    border: solid 1px #ccc;
+    background: white;
+    text-decoration: none;
+}
+
+div.changelist-inline .paginator a.showall {
+    padding: 0 !important;
+    border: none !important;
+}
+
+div.changelist-inline .paginator a.showall:hover {
+    color: #036 !important;
+    background: transparent !important;
+}
+
+div.changelist-inline .paginator .end {
+    border-width: 2px !important;
+    margin-right: 6px;
+}
+
+div.changelist-inline .paginator .this-page {
+    padding: 2px 6px;
+    font-weight: bold;
+    font-size: 13px;
+    vertical-align: top;
+}
+
+div.changelist-inline .paginator a:hover {
+    color: white;
+    background: #5b80b2;
+    border-color: #036;
+}
+
+/* ACTIONS */
+
+div.changelist-inline .filtered .actions {
+    margin-right: 160px !important;
+    border-right: 1px solid #ddd;
+}
+
+div.changelist-inline table input {
+    margin: 0;
+}
+
+div.changelist-inline table tbody tr.selected {
+    background-color: #FFFFCC;
+}
+
+div.changelist-inline .table-top {
+    color: #999;
+    padding: 3px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    background: white url(../../admin/img/nav-bg-reverse.gif) 0 -10px repeat-x;
+}
+
+div.changelist-inline .table-top.selected {
+    background: #fffccf;
+    border-top: 1px solid #fffee8;
+    border-bottom: 1px solid #edecd6;
+}
+
+div.changelist-inline .table-top span.all,
+div.changelist-inline .table-top span.action-counter,
+div.changelist-inline .table-top span.clear,
+div.changelist-inline .table-top span.question {
+    font-size: 11px;
+    margin: 0 0.5em;
+    display: none;
+}
+
+div.changelist-inline .table-top:last-child {
+    border-bottom: none;
+}
+
+div.changelist-inline .table-top select {
+    border: 1px solid #aaa;
+    margin-left: 0.5em;
+    padding: 1px 2px;
+}
+
+div.changelist-inline .table-top label {
+    font-size: 11px;
+    margin-left: 0.5em;
+}
+
+div.changelist-inline #action-toggle {
+    display: none;
+}
+
+div.changelist-inline .table-top .button {
+    font-size: 11px;
+    padding: 1px 2px;
+}
+
