@@ -1,6 +1,7 @@
 div.changelist-inline {
   margin: 0;
   padding: 0;
+  margin-bottom: 5px;
 }
 
 div.changelist-inline > fieldset {
@@ -15,7 +16,7 @@ div.changelist-inline {
 
 div.changelist-inline .object-tools {
   position: absolute;
-  top: 48px;
+  bottom: 32px;
   right: 0;
 }
 
